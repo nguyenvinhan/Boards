@@ -28,3 +28,11 @@ class UserUpdateView(UpdateView):
 
     def get_object(self,queryset=None):
         return self.request.user
+
+
+@method_add()
+class UserUpdateView
+{
+ 1
+ 2
+}
